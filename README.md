@@ -49,7 +49,7 @@
    
        @Autowired private ObjectStorageManager objectStorageManager;
    
-       private Logger logger = LoggerFactory.getLogger(IFileManagerImpl.class);
+       private Logger logger = LoggerFactory.getLogger(FileServiceImpl.class);
    
        @Override
        public String upload(MultipartFile file) {
